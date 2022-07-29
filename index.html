@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image drawing app</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <canvas id="canvas" width="800px" height="800px"></canvas>
+    <div class="tootlbox">
+      <div class="btns">
+        <button id="increase">+</button>
+        <p id="size">1</p>
+        <button id="decrease">-</button>
+      </div>
+      <div class="clear-canvas">clear the canvas</div>
+      <div class="color">
+        <p>choose a color</p>
+        <div id="swatch">
+          <input
+            type="color"
+            id="color"
+            name="colorPicker"
+            value="black"
+            title="pick a color"
+          />
+          <div class="info"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
